@@ -4,6 +4,12 @@ import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
+/**
+ * 
+ * @author jeevan
+ * @date 11-Jan-2014 12:13:12 PM
+ *
+ */
 public class ProduceConsume {
 	private BlockingQueue<Integer> queue = new ArrayBlockingQueue<Integer>(15);
 
